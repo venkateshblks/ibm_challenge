@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+   
+    <title>Agriculture Sustainability and Livelihood Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="https://e7.pngegg.com/pngimages/863/694/png-clipart-person-holding-soil-and-plant-illustration-sustainable-agriculture-sustainability-computer-icons-agriculture-miscellaneous-leaf.png" type="image/x-icon">
+      <link href="index.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <div class="header">
+        <center class="cen">
+          <img src="https://e7.pngegg.com/pngimages/863/694/png-clipart-person-holding-soil-and-plant-illustration-sustainable-agriculture-sustainability-computer-icons-agriculture-miscellaneous-leaf.png" alt="logo1" border="0" class="logo">
+          <h3>Agriculture Sustainability and Livelihood Dashboard
+          </h3>
+        </center>
+        <nav>
+          <ul class="list">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">About </a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          
+            <li><a href="team.html">Team Details</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://img.freepik.com/free-photo/farmland_1112-1234.jpg?w=740&t=st=1693476836~exp=1693477436~hmac=1a239cbd2ea4fb1e86a8f21daedddc0bf2fe8c2d929780902f73eb9f5d47d4bf" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://img.freepik.com/free-photo/environmental-conservation-plant-sustainability_53876-104385.jpg?w=740&t=st=1693476979~exp=1693477579~hmac=64348b2e15dc6d7e8ca831a3fc08201ab4bcbfe7f4fd1a33f59a2bbcb7ceecef" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="https://img.freepik.com/free-photo/beautiful-strawberry-garden-sunrise-doi-ang-khang-chiang-mai-thailand_335224-761.jpg?w=740&t=st=1693476947~exp=1693477547~hmac=5a573d0b78a28ac4ebb769a62b95df355d4ccd3dfe4e1633aa1ca7172d25c5c8" style="width:100%">
+          <div class="text"></div>
+        </div>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) { slideIndex = 1 }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 2000);
+        }
+      </script>
+      <br>
+      <center>
+        <h1>About Agriculture Sustainability</h1>
+      </center>
+      <center>
+        <h3><i class="gre" style="color: white;">Sustainable agriculture is a farming approach that aims to meet society's present food and textile needs without compromising the ability of future generations to meet their own needs It involves using environmentally friendly methods of farming that minimize damage to soil, water, biodiversity, and surrounding resources</i></h3>
+      </center>
+      <br><br><br><br>
+      <center>
+        <div class="about">
+          <!-- <i class="texta" > -->
+            <p style="color : rgb(19, 18, 18);">India is one of the biggest agricultural countries in the world. More than half the population depends on agriculture and its allied sectors for livelihood.
+               The country has the second-largest area under agriculture, after China, and is one of the largest crop-based food producers.
+               It ranks among the top 10 global agri exporters with agriculture constituting about 12 per cent of all domestic merchandise exports annually.</p>
+        </div>
+
+    <!-- <iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.public_folders%2Ffinal%2Bproject%2FNew%2Bdashboard&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model0000018a23276e03_00000002" width="3200" height="2000" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe> -->
+  </body>
+</html>

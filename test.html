@@ -1,0 +1,189 @@
+<head>
+    <meta charset="utf-8">
+    <title>Team Cards</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@300;400&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>h1,h2,h3 {
+    margin: 0;
+    font-family: 'IBM Plex Sans',Serif;
+}
+p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+a {
+    color: #005eeb;
+}
+a:hover {
+  color: #ffb200;
+}
+.teamWrapper {
+    margin-top: 50px;
+    padding-left: 0%;
+}
+.container {
+  --container: 1160px;
+  max-width: var(--container);
+  margin: auto;
+}
+.teamGrid {
+    display: grid;
+    grid-template-columns: 32.33% 32.33% 32.33%;
+    column-gap: 3.5%;
+    margin-top: 100px;
+    
+}
+.avatar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -80px;
+    text-align: center;
+}
+.teamcolinner {
+    position: relative;
+}
+.avatar > img {
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(170 170 173/ 1);
+    box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+}
+.teamcolinner {
+    position: relative;
+    border: 1px dashed #ddd;
+    min-height: 100px;
+    background: #fff;
+    z-index: 9;
+}
+.teamcol {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+.teamcol:hover {
+    transform: translateY(-30px);
+    box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+    transition: transform 1s ease-in-out;
+}
+.teamcol:before {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: -webkit-linear-gradient(#ffbf00, #ffa000);
+    border-top-right-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+.teamcol:after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(#0052cc, #005fec);
+    border-bottom-left-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+.teamcol:hover::before, .teamcol:hover::after {
+    width: 100%;
+    transition: width 1s ease-in-out;
+}
+.member-name {
+    margin-top: 80px;
+}
+.member-info {
+    padding: 10px 20px;
+}
+
+</style>  
+
+</head>
+  <body>
+    <div class="teamWrapper">
+      <div class="container">
+        <h1 align="center">Our Team</h1>
+        <p align="center">Something about our team</p>
+        <div class="teamGrid">
+          <div class="colmun">
+            <div class="teamcol">
+              <div class="teamcolinner">
+                <div class="avatar"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Member"></div>
+                <div class="member-name"> <h2 align="center">Mohamed Yousef
+  </h2> </div>
+                <div class="member-info"><p align="center">Abhipsa Guha, an ingenious member of our team, exhibited an exceptional blend of analytical acumen and creative flair throughout our recent project. With an unwavering focus on data-driven insights, Abhipsa undertook the pivotal task of crafting a comprehensive dashboard that encapsulated the essence of our exploratory data analysis. Her meticulous approach to data selection and visualization translated into an insightful and user-friendly interface, allowing stakeholders to glean meaningful patterns effortlessly. Abhipsa's ability to distill complex data into accessible insights is a testament to her dedication to precision and clarity. Her collaboration with the team, her proactive problem-solving, and her knack for turning raw data into actionable intelligence all contributed significantly to the project's success..</p></div>
+                <div class="member-mail"> <p align="center"> <a href="mailto:@gmail.com">mailto:@gmail.com</a> </p> </div>
+                <h3 style="color: blue;">Badges we earn from IBM</h3>
+                <h4>Getting Started with Enterprise Data Science
+                </h4>
+             
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1b2d7b2f-4307-43f7-af9c-d696fbd4fdc7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+                <h4>Journey to Cloud: Envisioning Your Solution</h4>
+                
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d6df73c6-06a9-4586-b255-1ebe55ab87c2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="colmun">
+            <div class="teamcol">
+              <div class="teamcolinner">
+                <div class="avatar"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Member"></div>
+                <div class="member-name"> <h2 align="center">Yashraj Sharma
+
+  </h2> </div>
+                <div class="member-info"><p align="center">Yashraj Sharma, a dynamic and accomplished team leader, played a pivotal role in orchestrating the seamless execution of our recent project. With a keen eye for detail and an unwavering dedication, Yashraj not only took charge of the project's overarching direction but also guided our two talented teammates through their respective roles. As a beacon of expertise in frontend development, Yashraj provided insightful guidance to one team member, ensuring the creation of an engaging and user-friendly interface. Simultaneously, he nurtured another teammate in crafting a sophisticated and intuitive dashboard, demonstrating his exceptional ability to juggle multiple responsibilities. Yashraj's leadership style is characterized by his approachability, effective communication, and knack for fostering a collaborative environment. Under his adept guidance, the project flourished, reflecting his exceptional leadership and technical prowess.</p></div>
+                <div class="member-mail"> <p align="center"> YashrajSharma@gmail.com </p> </div>
+                
+                <h3 style="color: blue;">Badges we earn from IBM</h3>
+                <h4>Getting Started with Enterprise Data Science
+                </h4>
+                
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="69464351-1cf5-47c2-95dc-6d273bda0a6d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+                <h4>Journey to Cloud: Envisioning Your Solution</h4>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e628bf00-4eb1-4f31-ae08-bb67050d3754" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="colmun">
+            <div class="teamcol">
+              <div class="teamcolinner">
+                <div class="avatar"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Member"></div>
+                <div class="member-name"> <h2 align="center">abhipsha guha
+  </h2> </div>
+                <div class="member-info"><p align="center">Abhipsa Guha, an ingenious member of our team, exhibited an exceptional blend of analytical acumen and creative flair throughout our recent project. With an unwavering focus on data-driven insights, Abhipsa undertook the pivotal task of crafting a comprehensive dashboard that encapsulated the essence of our exploratory data analysis. Her meticulous approach to data selection and visualization translated into an insightful and user-friendly interface, allowing stakeholders to glean meaningful patterns effortlessly. Abhipsa's ability to distill complex data into accessible insights is a testament to her dedication to precision and clarity. Her collaboration with the team, her proactive problem-solving, and her knack for turning raw data into actionable intelligence all contributed significantly to the project's success.</p></div>
+                <div class="member-mail"> <p align="center">  abhipshaguha@gmail.com </p> </div>
+
+                <h3 style="color: blue;">Badges we earn from IBM</h3>
+                <h4>Getting Started with Enterprise Data Science
+                </h4>
+                
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8f6ac7dd-aa4d-4617-b90e-5bf9e6828c88" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+                <h4>Journey to Cloud: Envisioning Your Solution</h4>
+                
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8f6ac7dd-aa4d-4617-b90e-5bf9e6828c88" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </body>
